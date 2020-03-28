@@ -1,1 +1,1 @@
-worker: python lastest.py
+worker: python __main__.py
