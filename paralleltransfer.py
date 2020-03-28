@@ -29,7 +29,7 @@ from telethon.tl.types import (Document, InputFileLocation, InputDocumentFileLoc
                                InputPhotoFileLocation, InputPeerPhotoFileLocation, DcOption)
 from telethon.errors import DcIdInvalidError
 
-from .config import connection_limit
+from config import connection_limit
 
 TypeLocation = Union[Document, InputDocumentFileLocation, InputPeerPhotoFileLocation,
                      InputFileLocation, InputPhotoFileLocation]
