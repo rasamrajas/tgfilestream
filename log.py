@@ -15,7 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 import logging
 
-from .config import log_config, debug
+from config import log_config, debug
 
 if log_config:
     logging.basicConfig(filename=log_config)
