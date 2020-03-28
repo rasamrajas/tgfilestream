@@ -19,10 +19,10 @@ import sys
 from aiohttp import web
 from telethon import functions
 
-from .telegram import client, transfer
-from .web_routes import routes
-from .config import host, port, public_url
-from .log import log
+from telegram import client, transfer
+from web_routes import routes
+from config import host, port, public_url
+from log import log
 
 server = web.Application()
 server.add_routes(routes)
