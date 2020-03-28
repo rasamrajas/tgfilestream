@@ -20,7 +20,7 @@ from telethon.tl.custom import Message
 from telethon.tl.types import TypeInputPeer, InputPeerChannel, InputPeerChat, InputPeerUser
 from aiohttp import web
 
-from .config import trust_headers
+from config import trust_headers
 
 pack_bits = 32
 pack_bit_mask = (1 << pack_bits) - 1
