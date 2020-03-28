@@ -17,9 +17,9 @@ import logging
 
 from telethon import TelegramClient, events
 
-from .paralleltransfer import ParallelTransferrer
-from .config import session_name, api_id, api_hash, public_url
-from .util import pack_id, get_file_name
+from paralleltransfer import ParallelTransferrer
+from config import session_name, api_id, api_hash, public_url
+from util import pack_id, get_file_name
 
 log = logging.getLogger(__name__)
 
